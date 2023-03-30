@@ -1,1006 +1,249 @@
-<!doctype html>
-<html class="no-js" lang="en">
+<!DOCTYPE html>
+<html lang="en" class="no-js">
 
 <head>
     <meta charset="utf-8">
-    <meta http-equiv="x-ua-compatible" content="ie=edge">
-    <title>SuperSport</title>
-    <meta name="description" content="">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <!-- Favicon -->
-    <link rel="shortcut icon" type="image/x-icon" href="img/favicon.ico">
-    <!-- Fonts -->
-    <link rel="stylesheet" href="css/montserrat.css">
-    <!-- CSS -->
-    <!-- Bootstrap CSS
-	============================================ -->
-    <link rel="stylesheet" href="css/bootstrap.min.css">
-    <!-- Icon Font CSS
-	============================================ -->
-    <link rel="stylesheet" href="css/material-design-iconic-font.min.css">
-    <link rel="stylesheet" href="css/font-awesome.min.css">
-    <!-- Plugins CSS
-	============================================ -->
-    <link rel="stylesheet" href="css/plugins.css">
-    <!-- Style CSS
-	============================================ -->
-    <link rel="stylesheet" href="css/style.css">
-    <!-- Modernizer JS
-	============================================ -->
-    <script src="js/vendor/modernizr-2.8.3.min.js"></script>
+    <title>Bloxrank</title>
+    <link href="https://fonts.googleapis.com/css?family=IBM+Plex+Sans:400,600" rel="stylesheet">
+    <link href="style.css" rel="stylesheet">
+    <script src="https://unpkg.com/animejs@3.0.1/lib/anime.min.js"></script>
+    <script src="https://unpkg.com/scrollreveal@4.0.0/dist/scrollreveal.min.js"></script>
 </head>
 
-<body>
-    <!-- Body main wrapper start -->
-    <div class="wrapper fix">
-
-        <!-- Header Area Start -->
-        <div id="header-area" class="header-area section">
+<body class="is-boxed has-animations">
+    <div class="body-wrap">
+        <header class="site-header">
             <div class="container">
-                <div class="row">
-                    <div class="col-12 position-relative">
-                        <!-- Logo -->
-                        <a class="logo float-start" href="index.html"><img src="img/logo.png" alt=""></a>
-                        <!-- Mini Cart -->
-                        <div class="mini-cart float-end">
-                            <a href="cart.html"><i class="zmdi zmdi-shopping-basket"></i></a>
+                <div class="site-header-inner">
+                    <div class="brand header-brand">
+                        <h1 class="m-0">
+                            <a href="#">
+<img class="header-logo-image" src="./static/logo.png" height="1200" width="110" alt="Logo">
+</a>
+                        </h1>
+                    </div>
+                </div>
+            </div>
+        </header>
+        <main>
+            <section class="hero">
+                <div class="container">
+                    <div class="hero-inner">
+                        <div class="hero-copy">
+                            <h1 class="hero-title mt-0">What is Bloxrank?</h1>
+                            <p class="hero-paragraph">Bloxrank is a second generation ROBLOX ranking bot made with easy use in mind.</p>
+                            <div class="hero-cta"><a class="button button-primary" href="#">Invite Bloxrank</a><a class="button" href="#">Support Server</a></div>
                         </div>
-                        <!---- Menu ---->
-                        <div id="main-menu" class="main-menu float-end">
-                            <nav>
-                                <ul>
-                                    <li><a href="index.html">home</a></li>
-                                    <li><a href="about.html">about</a></li>
-                                    <li><a href="team.html">team</a></li>
-                                    <li><a href="fixture.html">fixture</a></li>
-                                    <li><a href="point-table.html">point table</a></li>
-                                    <li><a href="blog.html">blog</a>
-                                        <ul>
-                                            <li><a href="blog.html">blog</a></li>
-                                            <li><a href="blog-details.html">blog details</a></li>
+                        <div class="hero-figure anime-element">
+                            <svg class="placeholder" width="528" height="396" viewBox="0 0 528 396">
+<rect width="528" height="396" style="fill:transparent;" />
+</svg>
+                            <div class="hero-figure-box hero-figure-box-01" data-rotation="45deg"></div>
+                            <div class="hero-figure-box hero-figure-box-02" data-rotation="-45deg"></div>
+                            <div class="hero-figure-box hero-figure-box-03" data-rotation="0deg"></div>
+                            <div class="hero-figure-box hero-figure-box-04" data-rotation="-135deg"></div>
+                            <div class="hero-figure-box hero-figure-box-05"></div>
+                            <div class="hero-figure-box hero-figure-box-06"></div>
+                            <div class="hero-figure-box hero-figure-box-07"></div>
+                            <div class="hero-figure-box hero-figure-box-08" data-rotation="-22deg"></div>
+                            <div class="hero-figure-box hero-figure-box-09" data-rotation="-52deg"></div>
+                            <div class="hero-figure-box hero-figure-box-10" data-rotation="-50deg"></div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="features section">
+                <div class="container">
+                    <div class="features-inner section-inner has-bottom-divider">
+                        <div class="features-wrap">
+                            <div class="feature text-center is-revealing">
+                                <div class="feature-inner">
+                                    <div class="feature-icon">
+                                        <img src="./static/feature-icon-01.svg" alt="Feature 01">
+                                    </div>
+                                    <h4 class="feature-title mt-24">Fast Ranking</h4>
+                                    <p class="text-sm mb-0">Fast ranking at your finger tips! We know groups want to prevent any abuse when it comes to ranking, we've made our ranking system with pre-built and customisable options to keep your group safe.
+                                        <p>
+                                </div>
+                            </div>
+                            <div class="feature text-center is-revealing">
+                                <div class="feature-inner">
+                                    <div class="feature-icon">
+                                        <img src="./static/feature-icon-02.svg" alt="Feature 02">
+                                    </div>
+                                    <h4 class="feature-title mt-24">Easy Verification</h4>
+                                    <p class="text-sm mb-0">Designed to be quick and easy, our verification system is made to keep your server safe and to prevent those pesky raiders.</p>
+                                </div>
+                            </div>
+                            <div class="feature text-center is-revealing">
+                                <div class="feature-inner">
+                                    <div class="feature-icon">
+                                        <img src="./static/feature-icon-03.svg" alt="Feature 03">
+                                    </div>
+                                    <h4 class="feature-title mt-24">Efficient Moderation</h4>
+                                    <p class="text-sm mb-0">Our simple yet powerful moderation commands and functions are designed to keep your community safe and to be able to enforce your server rules in seconds.</p>
+                                </div>
+                            </div>
+                            <div class="feature text-center is-revealing">
+                                <div class="feature-inner">
+                                    <div class="feature-icon">
+                                        <img src="./static/feature-icon-04.svg" alt="Feature 04">
+                                    </div>
+                                    <h4 class="feature-title mt-24">Shout Louder</h4>
+                                    <p class="text-sm mb-0">Along with ranking, we also provide sending a shout via your discord server and equiped with a fast shout proxy to view all those shouts from the comfort of your disocrd server.</p>
+                                </div>
+                            </div>
+                            <div class="feature text-center is-revealing">
+                                <div class="feature-inner">
+                                    <div class="feature-icon">
+                                        <img src="./static/Feature-icon-05.svg" alt="Feature 05">
+                                    </div>
+                                    <h4 class="feature-title mt-24">Count Those Members</h4>
+                                    <p class="text-sm mb-0">Our bot comes with a state of the art member count system, set a custom target for your group and customise to a style that suits your group.</p>
+                                </div>
+                            </div>
+                            <div class="feature text-center is-revealing">
+                                <div class="feature-inner">
+                                    <div class="feature-icon">
+                                        <img src="./static/Feature-icon-06.svg" alt="Feature 06">
+                                    </div>
+                                    <h4 class="feature-title mt-24">Fully Customisable</h4>
+                                    <p class="text-sm mb-0">No need to purchase premium here just to customise the bot to suit your servers needs, we do this via webhooks to create the perfect customised bot!</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="pricing section">
+                <div class="container-sm">
+                    <div class="pricing-inner section-inner">
+                        <div class="pricing-header text-center">
+                            <h2 class="section-title mt-0">Free For All</h2>
+                            <p class="section-paragraph mb-0">xrank will be free forever! Though you can buy premium which will unlock you special features!</p>
+                        </div>
+                        <div class="pricing-tables-wrap">
+                            <div class="pricing-table">
+                                <div class="pricing-table-inner is-revealing">
+                                    <div class="pricing-table-main">
+                                        <div class="pricing-table-header pb-24">
+                                            <div class="pricing-table-price"><span class="pricing-table-price-currency h2">R$</span><span class="pricing-table-price-amount h1">500-2K</span><span class="text-xs"> forever</span></div>
+                                        </div>
+                                        <div class="pricing-table-features-title text-xs pt-24 pb-24">What you will get</div>
+                                        <ul class="pricing-table-features list-reset text-xs">
+                                            <li>
+                                                <span>Ranking Centres</span>
+                                            </li>
+                                            <li>
+                                                <span>Premium Commands</span>
+                                            </li>
+                                            <li>
+                                                <span>Ranking Sticks</span>
+                                            </li>
+                                            <li>
+                                                <span>More Uptime</span>
+                                            </li>
                                         </ul>
-                                    </li>
-                                    <li><a href="shop.html">shop</a>
-                                        <ul>
-                                            <li><a href="shop.html">shop</a></li>
-                                            <li><a href="product-details.html">product details</a></li>
-                                            <li><a href="cart.html">cart</a></li>
-                                            <li><a href="wishlist.html">wishlist</a></li>
-                                            <li><a href="checkout.html">checkout</a></li>
-                                        </ul>
-                                    </li>
-                                    <li><a href="contact.html">contact</a></li>
-                                </ul>
-                            </nav>
-                        </div>
-                        <!---- Mobile Menu ---->
-                        <div class="mobile-menu"></div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <!-- Header Area End -->
-
-        <!-- Hero Area Start -->
-        <div id="hero-area" class="hero-area section">
-            <!-- Hero Slider Start -->
-            <div class="hero-slider">
-                <!-- Single Hero Item -->
-                <div class="hero-item">
-                    <!-- Hero Slider Image -->
-                    <img src="img/hero/1.jpg" alt="">
-                    <div class="container">
-                        <div class="row">
-                            <!-- Hero Slider Content -->
-                            <div class="hero-content col-lg-10 col-12">
-                                <h1>best team, <span>one dream</span></h1>
-                                <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered eration in some form, by injected humour, or randomised words which don't look even slightly believableilable, but the majority
-                                    have suffered eration in some form, by injected</p>
-                                <a href="#next-match-area" data-scroll>next match</a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <!-- Single Hero Item -->
-                <div class="hero-item">
-                    <!-- Hero Slider Image -->
-                    <img src="img/hero/2.jpg" alt="">
-                    <div class="container">
-                        <div class="row">
-                            <!-- Hero Slider Content -->
-                            <div class="hero-content col-lg-10 col-12">
-                                <h1>best team, <span>one dream</span></h1>
-                                <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered eration in some form, by injected humour, or randomised words which don't look even slightly believableilable, but the majority
-                                    have suffered eration in some form, by injected</p>
-                                <a href="#next-match-area" data-scroll>next match</a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <!-- Single Hero Item -->
-                <div class="hero-item">
-                    <!-- Hero Slider Image -->
-                    <img src="img/hero/3.jpg" alt="">
-                    <div class="container">
-                        <div class="row">
-                            <!-- Hero Slider Content -->
-                            <div class="hero-content col-lg-10 col-12">
-                                <h1>best team, <span>one dream</span></h1>
-                                <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered eration in some form, by injected humour, or randomised words which don't look even slightly believableilable, but the majority
-                                    have suffered eration in some form, by injected</p>
-                                <a href="#next-match-area" data-scroll>next match</a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <!---- Hero Slider End ---->
-        </div>
-        <!-- Hero Area End -->
-
-        <!-- About Area Start -->
-        <div id="about-area" class="about-area section pb-120 pt-120">
-            <div class="container">
-                <div class="row">
-                    <!-- About Image -->
-                    <div class="about-image col-lg-5 col-12">
-                        <img class="img-fluid" src="img/about/1.jpg" alt="">
-                    </div>
-                    <!-- About Content -->
-                    <div class="about-content col-lg-7 col-12">
-                        <h4>ABOUT US</h4>
-                        <h2>WELCOME TO OUR <span>SUPER SPORT</span></h2>
-                        <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humandomised words which don't look even slightly believable.</p>
-                        <a href="#staff-area" data-scroll>OUR PLAYER</a>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <!-- About Area End -->
-
-        <!-- Result Area Start -->
-        <div id="result-area" class="result-area section pb-120">
-            <div class="container">
-                <!-- Section Title -->
-                <div class="row">
-                    <div class="section-title text-center col-12 mb-70">
-                        <h1>Latest Result</h1>
-                        <h5>Primera Division 2016/2017</h5>
-                    </div>
-                </div>
-                <div class="row">
-                    <!-- Latest Result Wrapper -->
-                    <div class="latest-result-wrapper  fix">
-                        <div class="row">
-                            <!-- Single Result -->
-                            <div class="col-lg-6 col-12">
-                                <div class="single-result result-left">
-                                    <img class="team-banner" src="img/result/team-1.png" alt="">
-                                    <div class="content float-left">
-                                        <h3 class="team-name"><span class="left">Mohammedan</span> <span class="total-goal right">( 2 )</span> <span class="border"></span></h3>
-                                        <ul class="goalers">
-                                            <li>Karim Benzema (62')</li>
-                                            <li>Gareth Bale (90')</li>
-                                        </ul>
-                                        <span class="final-result">LOSS</span>
                                     </div>
-                                </div>
-                            </div>
-                            <span class="vs">vs</span>
-                            <!-- Single Result -->
-                            <div class="col-lg-6 col-12">
-                                <div class="single-result result-right">
-                                    <img class="team-banner" src="img/result/team-2.png" alt="">
-                                    <div class="content float-right">
-                                        <h3 class="team-name"><span class="left">Arambagh KS</span> <span class="total-goal right">( 3 )</span> <span class="border"></span></h3>
-                                        <ul class="goalers">
-                                            <li>Gerard Piqué (56')</li>
-                                            <li>Lionel Messi (47') (82')</li>
-                                        </ul>
-                                        <span class="final-result">WIN</span>
+                                    <div class="pricing-table-cta mb-8">
+                                        <a class="button button-primary button-shadow button-block" href="#">Buy Premium Now</a>
                                     </div>
                                 </div>
                             </div>
                         </div>
                     </div>
                 </div>
-            </div>
-        </div>
-        <!-- Result Area End -->
-
-        <!-- Next Match Area Start -->
-        <div id="next-match-area" class="next-match-area overlay section pb-110 pt-120">
+            </section>
+            <section class="cta section">
+                <div class="container">
+                    <div class="cta-inner section-inner">
+                        <h3 class="section-title mt-0">Still not convinced?</h3>
+                        <div class="cta-cta">
+                            <a class="button button-primary button-wide-mobile" href="#">Try It Out</a>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </main>
+        <footer class="site-footer">
             <div class="container">
-                <!-- Section Title -->
-                <div class="row">
-                    <div class="section-title title-white text-center col-12 mb-70">
-                        <h1>next match</h1>
+                <div class="site-footer-inner">
+                    <div class="brand footer-brand">
+                        <a href="#">
+<img class="header-logo-image" src="./static/logo.png" width="90" alt="Logo">
+</a>
                     </div>
-                </div>
-                <div class="row">
-                    <div class="col-12 text-center">
-                        <!-- Upcoming Match -->
-                        <div class="upcoming-match">
-                            <!-- Upcoming Match Teams -->
-                            <div class="teams">
-                                <div class="nms-team">
-                                    <div class="image float-left"><img src="img/next-match/team-1.png" alt=""></div>
-                                    <h4>Abahani</h4>
-                                </div>
-                                <span class="vs">vs</span>
-                                <div class="nms-team">
-                                    <h4>Brothers</h4>
-                                    <div class="image float-right"><img src="img/next-match/team-2.png" alt=""></div>
-                                </div>
-                            </div>
-                            <!-- Upcoming Match Time & Venue -->
-                            <div class="match-time-venue text-center">
-                                <span>Jule 20,2023  |  4.00 pm</span>
-                                <h4>Stamford Bridge, UK</h4>
-                            </div>
-                            <!-- Upcoming Match Countdown -->
-                            <div class="next-match-countdown" data-countdown="2023/07/20"></div>
-                        </div>
-                    </div>
+                    <ul class="footer-links list-reset">
+                        <li>
+                            <a href="#">Support</a>
+                        </li>
+                    </ul>
+                    <div class="footer-copyright">&copy; 2022 Bloxrank, all rights reserved</div>
                 </div>
             </div>
-        </div>
-        <!-- Next Match Area End -->
-
-        <!-- Staff Area Start -->
-        <div id="staff-area" class="staff-area section pb-120 pt-120">
-            <div class="container">
-                <!-- Section Title -->
-                <div class="row">
-                    <div class="section-title text-center col-12 mb-70">
-                        <h1>CLUB STAFF</h1>
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="col-12 text-center">
-                        <!-- Staff Tab List -->
-                        <ul class="staff-tab-list nav nav-tabs text-center">
-                            <li class="nav-item">
-                                <button class="nav-link active" data-bs-toggle="tab" data-bs-target="#managers">Managers</button>
-                            </li>
-                            <li class="nav-item">
-                                <button class="nav-link" data-bs-toggle="tab" data-bs-target="#first-team">First Team</button>
-                            </li>
-                            <li class="nav-item">
-                                <button class="nav-link" data-bs-toggle="tab" data-bs-target="#academy">academy</button>
-                            </li>
-                        </ul>
-                    </div>
-                    <!-- Staff Tab panes -->
-                    <div class="tab-content">
-                        <!-- Manager Tab -->
-                        <div role="tabpanel" class="tab-pane fade active" id="managers">
-                            <div class="row">
-                                <div class="col-12">
-                                    <!-- Stuff Slider -->
-                                    <div class="staff-slider">
-                                        <!-- Single Stuff -->
-                                        <div class="staff-item">
-                                            <div class="image"><img src="img/staff/manager/1.jpg" alt=""></div>
-                                            <div class="content">
-                                                <div class="details">
-                                                    <h4><a href="#">Juan Graham</a></h4>
-                                                    <p>Coach</p>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <!-- Single Stuff -->
-                                        <div class="staff-item">
-                                            <div class="image"><img src="img/staff/manager/2.jpg" alt=""></div>
-                                            <div class="content">
-                                                <div class="details">
-                                                    <h4><a href="#">Donald Collins</a></h4>
-                                                    <p>Coach</p>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <!-- Single Stuff -->
-                                        <div class="staff-item">
-                                            <div class="image"><img src="img/staff/manager/3.jpg" alt=""></div>
-                                            <div class="content">
-                                                <div class="details">
-                                                    <h4><a href="#">Ronald Gray</a></h4>
-                                                    <p>Coach</p>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <!-- Single Stuff -->
-                                        <div class="staff-item">
-                                            <div class="image"><img src="img/staff/manager/4.jpg" alt=""></div>
-                                            <div class="content">
-                                                <div class="details">
-                                                    <h4><a href="#">William Mendez</a></h4>
-                                                    <p>Coach</p>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <!-- Single Stuff -->
-                                        <div class="staff-item">
-                                            <div class="image"><img src="img/staff/manager/2.jpg" alt=""></div>
-                                            <div class="content">
-                                                <div class="details">
-                                                    <h4><a href="#">Gary Evans</a></h4>
-                                                    <p>Coach</p>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-
-                        </div>
-                        <!-- First Team Tab -->
-                        <div role="tabpanel" class="tab-pane fade" id="first-team">
-                            <div class="row">
-                                <div class="col-12">
-                                    <!-- Stuff Slider -->
-                                    <div class="staff-slider">
-                                        <!-- Single Stuff -->
-                                        <div class="staff-item">
-                                            <div class="image"><img src="img/staff/player/1.jpg" alt=""></div>
-                                            <div class="content">
-                                                <div class="details">
-                                                    <h4><a href="#">Jeffrey Moore</a></h4>
-                                                    <p>Midfielder</p>
-                                                </div>
-                                                <h2 class="num">14</h2>
-                                            </div>
-                                        </div>
-                                        <!-- Single Stuff -->
-                                        <div class="staff-item">
-                                            <div class="image"><img src="img/staff/player/2.jpg" alt=""></div>
-                                            <div class="content">
-                                                <div class="details">
-                                                    <h4><a href="#">Bryan Parker</a></h4>
-                                                    <p>Midfielder</p>
-                                                </div>
-                                                <h2 class="num">14</h2>
-                                            </div>
-                                        </div>
-                                        <!-- Single Stuff -->
-                                        <div class="staff-item">
-                                            <div class="image"><img src="img/staff/player/3.jpg" alt=""></div>
-                                            <div class="content">
-                                                <div class="details">
-                                                    <h4><a href="#">Juan Wood</a></h4>
-                                                    <p>Midfielder</p>
-                                                </div>
-                                                <h2 class="num">14</h2>
-                                            </div>
-                                        </div>
-                                        <!-- Single Stuff -->
-                                        <div class="staff-item">
-                                            <div class="image"><img src="img/staff/player/4.jpg" alt=""></div>
-                                            <div class="content">
-                                                <div class="details">
-                                                    <h4><a href="#">Ethan Barrett</a></h4>
-                                                    <p>Midfielder</p>
-                                                </div>
-                                                <h2 class="num">14</h2>
-                                            </div>
-                                        </div>
-                                        <!-- Single Stuff -->
-                                        <div class="staff-item">
-                                            <div class="image"><img src="img/staff/player/2.jpg" alt=""></div>
-                                            <div class="content">
-                                                <div class="details">
-                                                    <h4><a href="#">Peter Day</a></h4>
-                                                    <p>Midfielder</p>
-                                                </div>
-                                                <h2 class="num">14</h2>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <!-- Academy Tab -->
-                        <div role="tabpanel" class="tab-pane fade" id="academy">
-                            <div class="row">
-                                <div class="col-12">
-                                    <!-- Stuff Slider -->
-                                    <div class="staff-slider">
-                                        <!-- Single Stuff -->
-                                        <div class="staff-item">
-                                            <div class="image"><img src="img/staff/academy/1.jpg" alt=""></div>
-                                            <div class="content">
-                                                <div class="details">
-                                                    <h4><a href="#">Carl Hill</a></h4>
-                                                    <p>Midfielder</p>
-                                                </div>
-                                                <h2 class="num">14</h2>
-                                            </div>
-                                        </div>
-                                        <!-- Single Stuff -->
-                                        <div class="staff-item">
-                                            <div class="image"><img src="img/staff/academy/2.jpg" alt=""></div>
-                                            <div class="content">
-                                                <div class="details">
-                                                    <h4><a href="#">John Ward</a></h4>
-                                                    <p>Midfielder</p>
-                                                </div>
-                                                <h2 class="num">14</h2>
-                                            </div>
-                                        </div>
-                                        <!-- Single Stuff -->
-                                        <div class="staff-item">
-                                            <div class="image"><img src="img/staff/academy/3.jpg" alt=""></div>
-                                            <div class="content">
-                                                <div class="details">
-                                                    <h4><a href="#">David Bates</a></h4>
-                                                    <p>Midfielder</p>
-                                                </div>
-                                                <h2 class="num">14</h2>
-                                            </div>
-                                        </div>
-                                        <!-- Single Stuff -->
-                                        <div class="staff-item">
-                                            <div class="image"><img src="img/staff/academy/4.jpg" alt=""></div>
-                                            <div class="content">
-                                                <div class="details">
-                                                    <h4><a href="#">Carl Stanley</a></h4>
-                                                    <p>Midfielder</p>
-                                                </div>
-                                                <h2 class="num">14</h2>
-                                            </div>
-                                        </div>
-                                        <!-- Single Stuff -->
-                                        <div class="staff-item">
-                                            <div class="image"><img src="img/staff/academy/2.jpg" alt=""></div>
-                                            <div class="content">
-                                                <div class="details">
-                                                    <h4><a href="#">Randy Bates</a></h4>
-                                                    <p>Midfielder</p>
-                                                </div>
-                                                <h2 class="num">14</h2>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-            </div>
-        </div>
-        <!-- Staff Area End -->
-
-        <!-- Funfact Area Start -->
-        <div class="funfact-area section overlay pb-60 pt-90">
-            <div class="container">
-                <div class="row">
-                    <!-- Single Funfact -->
-                    <div class="col-md-3 col-sm-6 col-12 text-center text-lg-end mb-30">
-                        <div class="single-funfact">
-                            <h1 class="counter">2000</h1>
-                            <h3>Goals</h3>
-                        </div>
-                    </div>
-                    <!-- Single Funfact -->
-                    <div class="col-md-3 col-sm-6 col-12 text-center text-lg-end mb-30">
-                        <div class="single-funfact">
-                            <h1 class="counter">180</h1>
-                            <h3>Active Playears</h3>
-                        </div>
-                    </div>
-                    <!-- Single Funfact -->
-                    <div class="col-md-3 col-sm-6 col-12 text-center text-lg-end mb-30">
-                        <div class="single-funfact">
-                            <h1 class="counter">580</h1>
-                            <h3>Win</h3>
-                        </div>
-                    </div>
-                    <!-- Single Funfact -->
-                    <div class="col-md-3 col-sm-6 col-12 text-center text-lg-end mb-30">
-                        <div class="single-funfact">
-                            <h1 class="counter">190</h1>
-                            <h3>Awards</h3>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <!-- Funfact Area End -->
-
-        <!-- Product Area Start -->
-        <div id="product-area" class="product-area section pb-100 pt-120">
-            <div class="container">
-                <!-- Section Title -->
-                <div class="row">
-                    <div class="section-title text-center col-12 mb-60">
-                        <h1>top product</h1>
-                    </div>
-                </div>
-                <div class="row">
-                    <!-- Product Slider -->
-                    <div class="product-slider">
-                        <!-- Single Product -->
-                        <div class="col-lg-3 col-12">
-                            <div class="product-item">
-                                <!-- Product Image -->
-                                <a href="#" class="image"><img src="img/product/1.jpg" alt=""></a>
-                                <!-- Product Content -->
-                                <div class="content">
-                                    <!-- Product Title -->
-                                    <h4 class="title"><a href="#">Title Product Here</a></h4>
-                                    <!-- Product Category -->
-                                    <h5 class="cat">Categories</h5>
-                                    <div class="price-ratting fix">
-                                        <!-- Product Price -->
-                                        <h3 class="price float-left"><span>$</span>28</h3>
-                                        <!-- Product Ratting -->
-                                        <span class="ratting float-right">
-                                        <i class="zmdi zmdi-star"></i>
-                                        <i class="zmdi zmdi-star"></i>
-                                        <i class="zmdi zmdi-star"></i>
-                                        <i class="zmdi zmdi-star"></i>
-                                        <i class="zmdi zmdi-star-half"></i>
-                                    </span>
-                                    </div>
-                                    <!-- Product Action Button -->
-                                    <div class="action-btn fix">
-                                        <a href="#" class="add-cart">ADD TO CART</a>
-                                        <a href="#" class="wishlist"><i class="zmdi zmdi-favorite"></i></a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <!-- Single Product -->
-                        <div class="col-lg-3 col-12">
-                            <div class="product-item">
-                                <!-- Product Image -->
-                                <a href="#" class="image"><img src="img/product/2.jpg" alt=""></a>
-                                <!-- Product Content -->
-                                <div class="content">
-                                    <!-- Product Title -->
-                                    <h4 class="title"><a href="#">Title Product Here</a></h4>
-                                    <!-- Product Category -->
-                                    <h5 class="cat">Categories</h5>
-                                    <div class="price-ratting fix">
-                                        <!-- Product Price -->
-                                        <h3 class="price float-left"><span>$</span>28</h3>
-                                        <!-- Product Ratting -->
-                                        <span class="ratting float-right">
-                                        <i class="zmdi zmdi-star"></i>
-                                        <i class="zmdi zmdi-star"></i>
-                                        <i class="zmdi zmdi-star"></i>
-                                        <i class="zmdi zmdi-star"></i>
-                                        <i class="zmdi zmdi-star-half"></i>
-                                    </span>
-                                    </div>
-                                    <!-- Product Action Button -->
-                                    <div class="action-btn fix">
-                                        <a href="#" class="add-cart">ADD TO CART</a>
-                                        <a href="#" class="wishlist"><i class="zmdi zmdi-favorite"></i></a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <!-- Single Product -->
-                        <div class="col-lg-3 col-12">
-                            <div class="product-item">
-                                <!-- Product Image -->
-                                <a href="#" class="image"><img src="img/product/3.jpg" alt=""></a>
-                                <!-- Product Content -->
-                                <div class="content">
-                                    <!-- Product Title -->
-                                    <h4 class="title"><a href="#">Title Product Here</a></h4>
-                                    <!-- Product Category -->
-                                    <h5 class="cat">Categories</h5>
-                                    <div class="price-ratting fix">
-                                        <!-- Product Price -->
-                                        <h3 class="price float-left"><span>$</span>28</h3>
-                                        <!-- Product Ratting -->
-                                        <span class="ratting float-right">
-                                        <i class="zmdi zmdi-star"></i>
-                                        <i class="zmdi zmdi-star"></i>
-                                        <i class="zmdi zmdi-star"></i>
-                                        <i class="zmdi zmdi-star"></i>
-                                        <i class="zmdi zmdi-star-half"></i>
-                                    </span>
-                                    </div>
-                                    <!-- Product Action Button -->
-                                    <div class="action-btn fix">
-                                        <a href="#" class="add-cart">ADD TO CART</a>
-                                        <a href="#" class="wishlist"><i class="zmdi zmdi-favorite"></i></a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <!-- Single Product -->
-                        <div class="col-lg-3 col-12">
-                            <div class="product-item">
-                                <!-- Product Image -->
-                                <a href="#" class="image"><img src="img/product/4.jpg" alt=""></a>
-                                <!-- Product Content -->
-                                <div class="content">
-                                    <!-- Product Title -->
-                                    <h4 class="title"><a href="#">Title Product Here</a></h4>
-                                    <!-- Product Category -->
-                                    <h5 class="cat">Categories</h5>
-                                    <div class="price-ratting fix">
-                                        <!-- Product Price -->
-                                        <h3 class="price float-left"><span>$</span>28</h3>
-                                        <!-- Product Ratting -->
-                                        <span class="ratting float-right">
-                                        <i class="zmdi zmdi-star"></i>
-                                        <i class="zmdi zmdi-star"></i>
-                                        <i class="zmdi zmdi-star"></i>
-                                        <i class="zmdi zmdi-star"></i>
-                                        <i class="zmdi zmdi-star-half"></i>
-                                    </span>
-                                    </div>
-                                    <!-- Product Action Button -->
-                                    <div class="action-btn fix">
-                                        <a href="#" class="add-cart">ADD TO CART</a>
-                                        <a href="#" class="wishlist"><i class="zmdi zmdi-favorite"></i></a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <!-- Single Product -->
-                        <div class="col-lg-3 col-12">
-                            <div class="product-item">
-                                <!-- Product Image -->
-                                <a href="#" class="image"><img src="img/product/2.jpg" alt=""></a>
-                                <!-- Product Content -->
-                                <div class="content">
-                                    <!-- Product Title -->
-                                    <h4 class="title"><a href="#">Title Product Here</a></h4>
-                                    <!-- Product Category -->
-                                    <h5 class="cat">Categories</h5>
-                                    <div class="price-ratting fix">
-                                        <!-- Product Price -->
-                                        <h3 class="price float-left"><span>$</span>28</h3>
-                                        <!-- Product Ratting -->
-                                        <span class="ratting float-right">
-                                        <i class="zmdi zmdi-star"></i>
-                                        <i class="zmdi zmdi-star"></i>
-                                        <i class="zmdi zmdi-star"></i>
-                                        <i class="zmdi zmdi-star"></i>
-                                        <i class="zmdi zmdi-star-half"></i>
-                                    </span>
-                                    </div>
-                                    <!-- Product Action Button -->
-                                    <div class="action-btn fix">
-                                        <a href="#" class="add-cart">ADD TO CART</a>
-                                        <a href="#" class="wishlist"><i class="zmdi zmdi-favorite"></i></a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <!-- Product Area End -->
-
-        <!-- Gallery Area Start -->
-        <div id="gallery-area" class="gallery-area section overlay pb-100 pt-120">
-            <div class="container">
-                <!-- Section Title -->
-                <div class="row">
-                    <div class="section-title title-white text-center col-12 mb-70">
-                        <h1>photo gallery</h1>
-                    </div>
-                </div>
-                <div class="row row-10">
-                    <!-- Single Gallery Image -->
-                    <div class="col-lg-4 col-md-6 col-12">
-                        <a href="img/gallery/big-1.jpg" class="gallery-item overlay gallery-popup"><img src="img/gallery/1.jpg" alt=""></a>
-                    </div>
-                    <!-- Single Gallery Image -->
-                    <div class="col-lg-4 col-md-6 col-12">
-                        <a href="img/gallery/big-2.jpg" class="gallery-item overlay gallery-popup"><img src="img/gallery/2.jpg" alt=""></a>
-                    </div>
-                    <!-- Single Gallery Image -->
-                    <div class="col-lg-4 col-md-6 col-12">
-                        <a href="img/gallery/big-3.jpg" class="gallery-item overlay gallery-popup"><img src="img/gallery/3.jpg" alt=""></a>
-                    </div>
-                    <!-- Single Gallery Image -->
-                    <div class="col-lg-4 col-md-6 col-12">
-                        <a href="img/gallery/big-4.jpg" class="gallery-item overlay gallery-popup"><img src="img/gallery/4.jpg" alt=""></a>
-                    </div>
-                    <!-- Single Gallery Image -->
-                    <div class="col-lg-4 col-md-6 col-12">
-                        <a href="img/gallery/big-5.jpg" class="gallery-item overlay gallery-popup"><img src="img/gallery/5.jpg" alt=""></a>
-                    </div>
-                    <!-- Single Gallery Image -->
-                    <div class="col-lg-4 col-md-6 col-12">
-                        <a href="img/gallery/big-6.jpg" class="gallery-item overlay gallery-popup"><img src="img/gallery/6.jpg" alt=""></a>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <!-- Gallery Area End -->
-
-        <!-- Point Table Area Start -->
-        <div id="point-table-area" class="point-table-area section pb-120 pt-120">
-            <div class="container">
-                <!-- Section Title -->
-                <div class="row">
-                    <div class="section-title text-center col-12 mb-70">
-                        <h1>Points Table</h1>
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="col-lg-10 col-12 text-center mx-auto">
-                        <!-- Points Table -->
-                        <div class="table-responsive points-table">
-                            <table class="table">
-                                <tr>
-                                    <th>2016 / 2017</th>
-                                    <th>GP</th>
-                                    <th>W</th>
-                                    <th>D</th>
-                                    <th>L</th>
-                                    <th>F</th>
-                                    <th>PT</th>
-                                </tr>
-                                <tr>
-                                    <td>01. Abahani</td>
-                                    <td>25</td>
-                                    <td>21</td>
-                                    <td>2</td>
-                                    <td>2</td>
-                                    <td>52</td>
-                                    <td>48</td>
-                                </tr>
-                                <tr>
-                                    <td>02. Mohammedan</td>
-                                    <td>25</td>
-                                    <td>20</td>
-                                    <td>2</td>
-                                    <td>2</td>
-                                    <td>45</td>
-                                    <td>47</td>
-                                </tr>
-                                <tr>
-                                    <td>03. Arambagh KS</td>
-                                    <td>25</td>
-                                    <td>19</td>
-                                    <td>1</td>
-                                    <td>3</td>
-                                    <td>44</td>
-                                    <td>45</td>
-                                </tr>
-                                <tr>
-                                    <td>04. Brothers Union</td>
-                                    <td>25</td>
-                                    <td>19</td>
-                                    <td>1</td>
-                                    <td>3</td>
-                                    <td>40</td>
-                                    <td>44</td>
-                                </tr>
-                                <tr>
-                                    <td>05. Feni Soccer Club</td>
-                                    <td>25</td>
-                                    <td>19</td>
-                                    <td>1</td>
-                                    <td>3</td>
-                                    <td>40</td>
-                                    <td>44</td>
-                                </tr>
-                                <tr>
-                                    <td>06. Muktijoddha Sangsad</td>
-                                    <td>25</td>
-                                    <td>17</td>
-                                    <td>1</td>
-                                    <td>5</td>
-                                    <td>40</td>
-                                    <td>40</td>
-                                </tr>
-                            </table>
-                        </div>
-                        <a href="point-table.html" class="view-point-table">VIEW ALL</a>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <!-- Point Table Area End -->
-
-        <!-- Video Area Start -->
-        <div class="video-area section overlay">
-            <div class="container">
-                <div class="row">
-                    <!-- Video Wrapper -->
-                    <div class="video-wrapper col-12 text-center">
-                        <h1>RUNNING TUTORIAL SESSION</h1>
-                        <a class="video-popup" href="https://www.youtube.com/watch?v=4n55_OwKJig"><i class="zmdi zmdi-play-circle-outline"></i></a>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <!-- Video Area End -->
-
-        <!-- Blog Area Start -->
-        <div id="blog-area" class="blog-area section pb-90 pt-120">
-            <div class="container">
-                <!-- Section Title -->
-                <div class="row">
-                    <div class="section-title text-center col-12 mb-70">
-                        <h1>latest post</h1>
-                    </div>
-                </div>
-                <div class="row">
-                    <!-- Single Blog -->
-                    <div class="blog-item col-lg-4 col-md-6 col-12 mb-30">
-                        <!-- Image -->
-                        <div class="image"><img src="img/blog/1.jpg" alt=""></div>
-                        <!-- Content -->
-                        <div class="content">
-                            <!-- Meta -->
-                            <div class="meta">
-                                <p class="date">10 JUN 2016</p>
-                                <p class="cat"><a href="#">CRICKET</a></p>
-                                <p class="author">BY <a href="#">ADMIN</a></p>
-                            </div>
-                            <!-- Title -->
-                            <h3 class="title"><a href="#">Lukaku, Jesus in Team of the Weekend BD</a></h3>
-                            <p>Gabriel Jesus rescues Man City, Romelu Lukaku continues his remarkable form, aLiverpool slump further. Iain Macintosh offers up Heroes & Villains. ahare santi re</p>
-                            <a href="#" class="read-more">READ MORE</a>
-                        </div>
-                    </div>
-                    <!-- Single Blog -->
-                    <div class="blog-item col-lg-4 col-md-6 col-12 mb-30">
-                        <!-- Image -->
-                        <div class="image"><img src="img/blog/2.jpg" alt=""></div>
-                        <!-- Content -->
-                        <div class="content">
-                            <!-- Meta -->
-                            <div class="meta">
-                                <p class="date">10 JUN 2016</p>
-                                <p class="cat"><a href="#">CRICKET</a></p>
-                                <p class="author">BY <a href="#">ADMIN</a></p>
-                            </div>
-                            <!-- Title -->
-                            <h3 class="title"><a href="#">Atleti make Barca look ordina ry but fall in cup</a></h3>
-                            <p>Gabriel Jesus rescues Man City, Romelu Lukaku continues his remarkable form, aLiverpool slump further. Iain Macintosh offers up Heroes & Villains. ahare santi re</p>
-                            <a href="#" class="read-more">READ MORE</a>
-                        </div>
-                    </div>
-                    <!-- Single Blog -->
-                    <div class="blog-item col-lg-4 col-md-6 col-12 mb-30">
-                        <!-- Image -->
-                        <div class="image"><img src="img/blog/3.jpg" alt=""></div>
-                        <!-- Content -->
-                        <div class="content">
-                            <!-- Meta -->
-                            <div class="meta">
-                                <p class="date">10 JUN 2016</p>
-                                <p class="cat"><a href="#">CRICKET</a></p>
-                                <p class="author">BY <a href="#">ADMIN</a></p>
-                            </div>
-                            <!-- Title -->
-                            <h3 class="title"><a href="#">Lukaku, Jesus in Team of the Weekend BD</a></h3>
-                            <p>Gabriel Jesus rescues Man City, Romelu Lukaku continues his remarkable form, aLiverpool slump further. Iain Macintosh offers up Heroes & Villains. ahare santi re</p>
-                            <a href="#" class="read-more">READ MORE</a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <!-- Blog Area End -->
-
-        <!-- Breaking News Area Start -->
-        <div class="breaking-news-area section overlay pb-40 pt-40">
-            <div class="container">
-                <div class="row">
-                    <!-- Breaking News Wrapper -->
-                    <div class="news-wrapper col-12">
-                        <h4>Breaking News :</h4>
-                        <!-- Breaking News Slider -->
-                        <div class="bnews-slider">
-                            <a href="#">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration.</a>
-                            <a href="#">There are many variations of passages of Lorem Ipsum available.</a>
-                            <a href="#">There are many variations of passages of Lorem Ipsum available, but the majority.</a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <!-- Breaking News Area End -->
-
-        <!-- Footer Top Area Start -->
-        <div class="footer-top-area section pb-70 pt-100">
-            <div class="footer-top-left-bg overlay"></div>
-            <div class="container">
-                <div class="row">
-                    <!-- Footer About -->
-                    <div class="col-lg-5 col-12 mb-30">
-                        <div class="footer-about">
-                            <img src="img/logo.png" alt="">
-                            <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proiden</p>
-                            <div class="social fix">
-                                <a href="#"><i class="fa fa-facebook"></i></a>
-                                <a href="#"><i class="fa fa-rss"></i></a>
-                                <a href="#"><i class="fa fa-google-plus"></i></a>
-                                <a href="#"><i class="fa fa-pinterest"></i></a>
-                                <a href="#"><i class="fa fa-instagram"></i></a>
-                            </div>
-                        </div>
-                    </div>
-                    <!-- Footer Twitter -->
-                    <div class="col-lg-4 col-md-6 col-12 mb-30">
-                        <div class="twitter-widget">
-                            <h3 class="title">Latest Tweets</h3>
-                            <div class="single-twite">
-                                <p>Duis aute irure <a href="#">@dolor</a> in rderiin voluptate velit esse cillum dolore eu ft nulla pariatur. Excepteur <a href="#">@sint</a> occaecat..</p>
-                                <span>30 minutes ago</span>
-                            </div>
-                            <div class="single-twite">
-                                <p>Duis aute irure <a href="#">@dolor</a> in rderiin voluptate velit esse cillum dolore eu ft </p>
-                                <span>15 minutes ago</span>
-                            </div>
-                        </div>
-                    </div>
-                    <!-- Footer Subscribe -->
-                    <div class="col-lg-3 col-md-6 col-12 mb-30">
-                        <div class="subscribe-widget">
-                            <h3 class="title">Newsletters</h3>
-                            <div class="subscribe-form">
-                                <form action="#">
-                                    <input type="text" placeholder="your email address">
-                                    <button class="submit"><i class="zmdi zmdi-mail-send"></i></button>
-                                </form>
-                            </div>
-                            <p><span>Phone:</span> +98 996 554 658</p>
-                            <p><span>email:</span> sport@email.com</p>
-                        </div>
-                    </div>
-
-                </div>
-            </div>
-        </div>
-        <!-- Footer Top Area End -->
-
-        <!-- Footer Bottom Area Start -->
-        <div class="footer-bottom-area section">
-            <div class="container">
-                <div class="row justify-content-center justify-content-md-between align-items-center">
-
-                    <!-- Copyright -->
-                    <div class="copyright col-auto">
-                        <p>Copyright &copy; <span>Supar Sport</span>. 2023.All right reserved</p>
-                    </div>
-                    <!-- Author Credit -->
-                    <div class="author-credit col-auto">
-                        <p>Created by <a>theme</a> With <i class="fa fa-heart-o"></i></p>
-                    </div>
-
-                </div>
-            </div>
-        </div>
-        <!-- Footer Bottom Area End -->
-
-
+        </footer>
     </div>
-    <!-- Body main wrapper end -->
-
-    <!-- JS -->
-
-    <!-- jQuery JS
-============================================ -->
-    <script src="js/vendor/jquery-1.12.4.min.js"></script>
-    <!-- Bootstrap JS
-============================================ -->
-    <script src="js/bootstrap.bundle.min.js"></script>
-    <!-- Plugins JS
-============================================ -->
-    <script src="js/plugins.js"></script>
-    <!-- Ajax Mail JS
-============================================ -->
-    <script src="js/ajax-mail.js"></script>
-    <!-- Main JS
-============================================ -->
-    <script src="js/main.js"></script>
+    <script>
+        ! function() {
+            window;
+            const e = document.documentElement;
+            if (e.classList.remove("no-js"), e.classList.add("js"), document.body.classList.contains("has-animations")) {
+                (window.sr = ScrollReveal()).reveal(".feature, .pricing-table-inner", {
+                    duration: 600,
+                    distance: "20px",
+                    easing: "cubic-bezier(0.5, -0.01, 0, 1.005)",
+                    origin: "bottom",
+                    interval: 100
+                }), e.classList.add("anime-ready"), anime.timeline({
+                    targets: ".hero-figure-box-05"
+                }).add({
+                    duration: 400,
+                    easing: "easeInOutExpo",
+                    scaleX: [.05, .05],
+                    scaleY: [0, 1],
+                    perspective: "500px",
+                    delay: anime.random(0, 400)
+                }).add({
+                    duration: 400,
+                    easing: "easeInOutExpo",
+                    scaleX: 1
+                }).add({
+                    duration: 800,
+                    rotateY: "-15deg",
+                    rotateX: "8deg",
+                    rotateZ: "-1deg"
+                }), anime.timeline({
+                    targets: ".hero-figure-box-06, .hero-figure-box-07"
+                }).add({
+                    duration: 400,
+                    easing: "easeInOutExpo",
+                    scaleX: [.05, .05],
+                    scaleY: [0, 1],
+                    perspective: "500px",
+                    delay: anime.random(0, 400)
+                }).add({
+                    duration: 400,
+                    easing: "easeInOutExpo",
+                    scaleX: 1
+                }).add({
+                    duration: 800,
+                    rotateZ: "20deg"
+                }), anime({
+                    targets: ".hero-figure-box-01, .hero-figure-box-02, .hero-figure-box-03, .hero-figure-box-04, .hero-figure-box-08, .hero-figure-box-09, .hero-figure-box-10",
+                    duration: anime.random(600, 800),
+                    delay: anime.random(600, 800),
+                    rotate: [anime.random(-360, 360), function(e) {
+                        return e.getAttribute("data-rotation")
+                    }],
+                    scale: [.7, 1],
+                    opacity: [0, 1],
+                    easing: "easeInOutExpo"
+                })
+            }
+        }();
+    </script>
 </body>
 
 </html>
