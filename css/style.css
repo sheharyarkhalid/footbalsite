@@ -269,8 +269,7 @@ header {
 display: block;
   }
 .content_header h3 {
-    font-size: 18px;
-    line-height: 25px;
+    font-size: 28px;
     padding-bottom: 5px;
 }
 .content_header p {
@@ -294,7 +293,7 @@ display: block;
   padding: 180px 0px 30px 0px;
 }
 .form_design_one_box {
-  padding-top: 110px;
+  padding-top: 100px;
 }
 i.fal.fa-bars {
   font-size: 19px;
