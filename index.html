@@ -18,7 +18,7 @@
       <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
       <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
 
-      
+      <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
     </head>
 <body>
 
@@ -27,8 +27,24 @@
   <div class="design_one_box_main">
     <header>
      <ul><li><a> CHARLIE CASH | BLOGGER</a></li></ul>
-     <ul><li><a> Home</a></li></ul>
+     <ul>
+      <li class="home_link"><a> Home</a></li>
+      <li class="mobile_btn"><a class="mobile_res_toggle_btn"><i class="fal fa-bars"></i></a></li>
+    </ul>
     </header>
+ 
+    <div class="mobile_res_toggle_content">
+      <div class="mobile_res_toggle_content_cancle"><a class="mobile_res_toggle_btn" style="font-size:20px;"><i class="fas fa-times" style="font-weight: 300;"></i></a></div>
+    
+      <ul class="mobile_res_toggle_list_1">
+          <li class="li_0"><a style="font-size: 14px;font-weight: 500;">Home</a> </li>
+          
+       </ul>
+  
+  
+  </div>
+
+
     <figure>
       <img src="image/img.jpg" />
     </figure>
@@ -64,6 +80,13 @@
   </div>
 </div>
 
+<script>
+  $('.mobile_res_toggle_btn').click(function () {
+      $('.mobile_res_toggle_content').toggleClass('responsive_bar');
+  });
+  
+  
+  </script>
 
 </body>
 </html>
